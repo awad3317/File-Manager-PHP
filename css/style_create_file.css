@@ -1,0 +1,23 @@
+.parent{
+    border-color: black;
+    border-style: solid;
+    height: 400px;
+    width: 600px;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1f;
+    grid-template-rows: 100px 1fr;
+}
+.parent div{
+    border-color: blue;
+    border-style: solid;
+    
+}
+textarea{
+    width: 400px;
+    height: 100px;
+}
+.Create{
+    background-color: green;
+    color: white;
+}

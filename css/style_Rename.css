@@ -1,0 +1,44 @@
+.parent{
+    border-color: black;
+    border-style: solid;
+    height: 400px;
+    width: 600px;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1f;
+    grid-template-rows: 100px 1fr;
+}
+.parent div{
+    border-color: blue;
+    border-style: solid;
+    
+}
+textarea{
+    width: 400px;
+    height: 100px;
+}
+
+.btn-warning {
+    color: #212529;
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+.btn-warning:hover{
+    color: #212529;
+    background-color: #b88f15;
+    border-color: #ffc107;
+}
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    border-radius: 0.25rem;
+    transition: all 0.2s ease-in-out;
+}
+.btn-sm {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.75rem;
+}
